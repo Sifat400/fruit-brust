@@ -40,11 +40,12 @@
       };
     </script>
   </head>
-  <body class="font-lato">
-    <header
-      class="max-w-screen-xl mx-auto rounded-[600px] h-28 p-4 md:bg-fruit-primary lg:text-gray-100 px-4 lg:px-14 my-14"
-    >
-      <div class="container flex justify-between items-center h-16 mx-auto">
+  <body class="font-lato h-[4000px]">
+    <header class="max-w-screen-xl mx-auto">
+      <!-- Nav-bar Section -->
+      <nav
+        class="container flex justify-between items-center h-28 mx-auto rounded-[600px] p-4 md:bg-fruit-primary lg:text-gray-100 px-4 lg:px-14 my-14"
+      >
         <ul
           class="text-lg font-semibold items-stretch hidden space-x-3 lg:flex gap-8"
         >
@@ -105,7 +106,92 @@
             ></path>
           </svg>
         </button>
-      </div>
+      </nav>
+
+      <!-- Banner Section -->
+      <section class="banner">
+        <div class="carousel w-full">
+          <!-- Slide 1 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./images/banner1.png" class="w-full" />
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./images/banner2.png" class="w-full" />
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a
+                href="#slide1"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="./images/banner3.png" class="w-full" />
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div id="slide4" class="carousel-item relative w-full">
+            <img src="./images/banner4.png" class="w-full" />
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
+
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a
+                href="#slide3"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle border-none text-white bg-[#12121299] hover:bg-[#12121250]"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
