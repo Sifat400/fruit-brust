@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fruit Brush</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
     <!-- Tailwind & Daisyui cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
@@ -25,6 +26,7 @@
       }
       .button-primary {
         background: #f85559;
+        background: #df484b;
         padding: 15px 25px;
         border-radius: 8px;
         color: #fff;
@@ -70,10 +72,10 @@
         <ul
           class="text-lg font-semibold items-stretch hidden space-x-3 lg:flex gap-8"
         >
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Shop</li>
-          <li>All Fuits</li>
+          <li class="cursor-pointer hover:text-slate-200">Home</li>
+          <li class="cursor-pointer hover:text-slate-200">About Us</li>
+          <li class="cursor-pointer hover:text-slate-200">Shop</li>
+          <li class="cursor-pointer hover:text-slate-200">All Fuits</li>
         </ul>
         <a
           rel="noopener noreferrer"
@@ -138,19 +140,25 @@
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
 
             <div
-              class="banner-content absolute -top-2 left-0 right-0 flex justify-center h-full items-center flex-col text-center mx-auto text-white space-y-5"
+              class="banner-content absolute top-0 lg:-top-16 xl:-top-8 left-0 right-0 flex justify-center h-full items-center flex-col text-center mx-auto text-white space-y-2 md:space-y-5"
             >
-              <h1 class="max-w-2xl text-3xl md:text-5xl lg:text-7xl font-bold">
+              <h1
+                class="max-w-2xl text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
+              >
                 Exotic tastes at your
                 <br />
                 doorstep
               </h1>
               <p>We supply highly quality organic products</p>
-              <button class="button-primary">Shop Now</button>
+              <button
+                class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+              >
+                Shop Now
+              </button>
             </div>
 
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="absolute flex justify-between transform -translate-y-1/2 left-2 md:left-5 right-2 md:right-5 top-1/2"
             >
               <a
                 href="#slide4"
@@ -168,9 +176,25 @@
           <div id="slide2" class="carousel-item relative w-full">
             <img src="./images/banner2.png" class="w-full" />
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
-
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="banner-content absolute top-0 lg:-top-16 xl:-top-8 left-0 right-0 flex justify-center h-full items-center flex-col text-center mx-auto text-white space-y-2 md:space-y-5"
+            >
+              <h1
+                class="max-w-2xl text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
+              >
+                Exotic tastes at your
+                <br />
+                doorstep
+              </h1>
+              <p>We supply highly quality organic products</p>
+              <button
+                class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+              >
+                Shop Now
+              </button>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-2 md:left-5 right-2 md:right-5 top-1/2"
             >
               <a
                 href="#slide1"
@@ -188,9 +212,25 @@
           <div id="slide3" class="carousel-item relative w-full">
             <img src="./images/banner3.png" class="w-full" />
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
-
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="banner-content absolute top-0 lg:-top-16 xl:-top-8 left-0 right-0 flex justify-center h-full items-center flex-col text-center mx-auto text-white space-y-2 md:space-y-5"
+            >
+              <h1
+                class="max-w-2xl text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
+              >
+                Exotic tastes at your
+                <br />
+                doorstep
+              </h1>
+              <p>We supply highly quality organic products</p>
+              <button
+                class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+              >
+                Shop Now
+              </button>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-2 md:left-5 right-2 md:right-5 top-1/2"
             >
               <a
                 href="#slide2"
@@ -208,9 +248,25 @@
           <div id="slide4" class="carousel-item relative w-full">
             <img src="./images/banner4.png" class="w-full" />
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
-
             <div
-              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              class="banner-content absolute top-0 lg:-top-16 xl:-top-8 left-0 right-0 flex justify-center h-full items-center flex-col text-center mx-auto text-white space-y-2 md:space-y-5"
+            >
+              <h1
+                class="max-w-2xl text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
+              >
+                Exotic tastes at your
+                <br />
+                doorstep
+              </h1>
+              <p>We supply highly quality organic products</p>
+              <button
+                class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+              >
+                Shop Now
+              </button>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-2 md:left-5 right-2 md:right-5 top-1/2"
             >
               <a
                 href="#slide3"
@@ -227,13 +283,15 @@
         </div>
       </section>
       <!-- Food-items Section -->
-      <section class="food-item max-w-screen-lg mx-auto -mt-32 relative z-20">
+      <section
+        class="food-item lg:max-w-screen-md xl:max-w-screen-lg mx-auto -mt-32 relative z-20"
+      >
         <div
-          class="food-item-wrapper py-10 px-14 hidden lg:flex justify-between shadow-2xl bg-white inset-0 rounded-lg"
+          class="food-item-wrapper lg:py-6 xl:py-10 lg:px-10 xl:px-14 hidden lg:flex justify-between shadow-2xl bg-white inset-0 rounded-lg"
         >
           <div class="card card-compact bg-base-100">
             <figure>
-              <img src="./images/fruit1.png" alt="Shoes" />
+              <img src="./images/fruit1.png" class="w-[90%]" alt="Shoes" />
             </figure>
             <div class="card-body items-center">
               <p class="text-xl text-text-secondary font-medium">Blueberry</p>
@@ -241,7 +299,7 @@
           </div>
           <div class="card card-compact bg-base-100">
             <figure>
-              <img src="./images/fruit2.png" alt="Shoes" />
+              <img src="./images/fruit2.png" class="w-[90%]" alt="Shoes" />
             </figure>
             <div class="card-body items-center">
               <p class="text-xl text-text-secondary font-medium">Orrange</p>
@@ -249,7 +307,7 @@
           </div>
           <div class="card card-compact bg-base-100">
             <figure>
-              <img src="./images/fruit3.png" alt="Shoes" />
+              <img src="./images/fruit3.png" class="w-[90%]" alt="Shoes" />
             </figure>
             <div class="card-body items-center">
               <p class="text-xl text-text-secondary font-medium">Mango</p>
@@ -257,7 +315,7 @@
           </div>
           <div class="card card-compact bg-base-100">
             <figure>
-              <img src="./images/fruit4.png" alt="Shoes" />
+              <img src="./images/fruit4.png" class="w-[90%]" alt="Shoes" />
             </figure>
             <div class="card-body items-center">
               <p class="text-xl text-text-secondary font-medium">Strawberry</p>
@@ -294,33 +352,25 @@
           <div class="count-down mt-5">
             <div class="grid grid-flow-col gap-7 text-center auto-cols-max">
               <div class="flex flex-col">
-                <span
-                  class="countdown font-extrabold text-2xl md:text-3xl lg:text-5xl"
-                >
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value: 15" class="mb-2"></span>
                 </span>
                 <div class="text-slate-500 font-medium">days</div>
               </div>
               <div class="flex flex-col">
-                <span
-                  class="countdown font-extrabold text-2xl md:text-3xl lg:text-5xl"
-                >
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value: 10" class="mb-2"></span>
                 </span>
                 <div class="text-slate-500 font-medium">hours</div>
               </div>
               <div class="flex flex-col">
-                <span
-                  class="countdown font-extrabold text-2xl md:text-3xl lg:text-5xl"
-                >
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value: 24" class="mb-2"></span>
                 </span>
                 <div class="text-slate-500 font-medium">min</div>
               </div>
               <div class="flex flex-col">
-                <span
-                  class="countdown font-extrabold text-2xl md:text-3xl lg:text-5xl"
-                >
+                <span class="countdown font-extrabold text-3xl lg:text-5xl">
                   <span style="--value: 28" class="mb-2"></span>
                 </span>
                 <div class="text-slate-500 font-medium">sec</div>
@@ -342,7 +392,7 @@
             </figure>
             <div class="card-body items-center text-center space-y-2">
               <h2 class="card-title">12.90$ - 18.85$</h2>
-              <div class="w-72 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
+              <div class="w-56 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
               <p>Apples</p>
               <div class="rating">
                 <input
@@ -373,11 +423,66 @@
                 />
               </div>
               <div class="card-actions">
-                <a class="text-fruit-primary font-bold text-lg"> Details </a>
+                <button
+                  class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                >
+                  Details
+                </button>
               </div>
             </div>
           </div>
           <!-- Card 2 -->
+          <div class="card bg-base-100 shadow-lg">
+            <figure class="px-10 pt-10">
+              <img
+                src="./images/fruit8.png"
+                alt="Shoes"
+                class="rounded-xl mb-3"
+              />
+            </figure>
+            <div class="card-body items-center text-center space-y-2">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <div class="w-56 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
+              <p>Dragon</p>
+              <div class="rating">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-fruit-primary"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-fruit-primary"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-fruit-primary"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-fruit-primary"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-fruit-primary"
+                />
+              </div>
+              <div class="card-actions">
+                <button
+                  class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
           <div class="card bg-base-100 shadow-lg">
             <figure class="px-10 pt-10">
               <img
@@ -388,7 +493,7 @@
             </figure>
             <div class="card-body items-center text-center space-y-2">
               <h2 class="card-title">12.90$ - 18.85$</h2>
-              <div class="w-72 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
+              <div class="w-56 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
               <p>Dalim</p>
               <div class="rating">
                 <input
@@ -419,11 +524,16 @@
                 />
               </div>
               <div class="card-actions">
-                <a class="text-fruit-primary font-bold text-lg"> Details </a>
+                <button
+                  class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                >
+                  Details
+                </button>
               </div>
             </div>
           </div>
-          <!-- Card 3 -->
+
+          <!-- Card 4 -->
           <div class="card bg-base-100 shadow-lg">
             <figure class="px-10 pt-10">
               <img
@@ -434,7 +544,7 @@
             </figure>
             <div class="card-body items-center text-center space-y-2">
               <h2 class="card-title">12.90$ - 18.85$</h2>
-              <div class="w-72 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
+              <div class="w-56 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
               <p>Orrange</p>
               <div class="rating">
                 <input
@@ -465,53 +575,11 @@
                 />
               </div>
               <div class="card-actions">
-                <a class="text-fruit-primary font-bold text-lg"> Details </a>
-              </div>
-            </div>
-          </div>
-          <!-- Card 4 -->
-          <div class="card bg-base-100 shadow-lg">
-            <figure class="px-10 pt-10">
-              <img
-                src="./images/fruit8.png"
-                alt="Shoes"
-                class="rounded-xl mb-3"
-              />
-            </figure>
-            <div class="card-body items-center text-center space-y-2">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <div class="w-72 bg-slate-200 h-[1px] mt-3 mx-auto"></div>
-              <p>Apples</p>
-              <div class="rating">
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-fruit-primary"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-fruit-primary"
-                  checked
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-fruit-primary"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-fruit-primary"
-                />
-                <input
-                  type="radio"
-                  name="rating-2"
-                  class="mask mask-star-2 bg-fruit-primary"
-                />
-              </div>
-              <div class="card-actions">
-                <a class="text-fruit-primary font-bold text-lg"> Details </a>
+                <button
+                  class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                >
+                  Details
+                </button>
               </div>
             </div>
           </div>
@@ -825,18 +893,7 @@
                 d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
               ></path></svg
           ></a>
-          <a
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-              class="fill-current"
-            >
-              <path
-                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
-              ></path></svg
-          ></a>
+
           <a
             ><svg
               xmlns="http://www.w3.org/2000/svg"
