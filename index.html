@@ -135,7 +135,7 @@
       <section class="banner relative z-10">
         <div class="carousel w-full">
           <!-- Slide 1 -->
-          <div id="slide1" class="carousel-item relative w-full">
+          <div id="slide1" class="carousel-item relative w-full min-h-[190px]">
             <img src="./images/banner1.png" class="w-full" />
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
 
@@ -173,11 +173,11 @@
             </div>
           </div>
           <!-- Slide 2 -->
-          <div id="slide2" class="carousel-item relative w-full">
+          <div id="slide2" class="carousel-item relative w-full min-h-[190px]">
             <img src="./images/banner2.png" class="w-full" />
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
             <div
-              class="banner-content absolute top-0 lg:-top-16 xl:-top-8 left-0 right-0 flex justify-center h-full items-center flex-col text-center mx-auto text-white space-y-2 md:space-y-5"
+              class="banner-content absolute top-0 lg:-top-16 xl:-top-8 left-0 right-0 flex justify-center h-full items-center flex-col text-center mx-auto text-white space-y-1 md:space-y-5"
             >
               <h1
                 class="max-w-2xl text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
@@ -209,7 +209,7 @@
             </div>
           </div>
           <!-- Slide 3 -->
-          <div id="slide3" class="carousel-item relative w-full">
+          <div id="slide3" class="carousel-item relative w-full min-h-[190px]">
             <img src="./images/banner3.png" class="w-full" />
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
             <div
@@ -245,7 +245,7 @@
             </div>
           </div>
           <!-- Slide 4 -->
-          <div id="slide4" class="carousel-item relative w-full">
+          <div id="slide4" class="carousel-item relative w-full min-h-[190px]">
             <img src="./images/banner4.png" class="w-full" />
             <div class="absolute inset-0 bg-gray-900 bg-opacity-30"></div>
             <div
@@ -423,11 +423,72 @@
                 />
               </div>
               <div class="card-actions">
+                <!-- Open the modal using ID.showModal() method -->
                 <button
                   class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                  onclick="my_modal_1.showModal()"
                 >
                   Details
                 </button>
+                <dialog id="my_modal_1" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/fruit6.png"
+                        alt="Shoes"
+                        class="rounded-xl mb-3"
+                      />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-2">
+                      <h2 class="card-title">Apple</h2>
+                      <p class="text-slate-500">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="rating space-x-2">
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-3"
+                          class="mask mask-star-2 bg-fruit-primary"
+                          checked
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                      </div>
+                    </div>
+                    <div class="modal-action flex justify-center gap-2 mt-0">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-fruit-primary hover:text-[#df484b] bg-text-white border-2 border-solid border-fruit-primary hover:border-[#df484b] font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Bye Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
@@ -473,11 +534,72 @@
                 />
               </div>
               <div class="card-actions">
+                <!-- Open the modal using ID.showModal() method -->
                 <button
                   class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                  onclick="my_modal_2.showModal()"
                 >
                   Details
                 </button>
+                <dialog id="my_modal_2" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/fruit8.png"
+                        alt="Shoes"
+                        class="rounded-xl mb-3"
+                      />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-2">
+                      <h2 class="card-title">Red Dragon</h2>
+                      <p class="text-slate-500">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="rating space-x-2">
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-3"
+                          class="mask mask-star-2 bg-fruit-primary"
+                          checked
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                      </div>
+                    </div>
+                    <div class="modal-action flex justify-center gap-2 mt-0">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-fruit-primary hover:text-[#df484b] bg-text-white border-2 border-solid border-fruit-primary hover:border-[#df484b] font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Bye Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
@@ -524,11 +646,72 @@
                 />
               </div>
               <div class="card-actions">
+                <!-- Open the modal using ID.showModal() method -->
                 <button
                   class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                  onclick="my_modal_3.showModal()"
                 >
                   Details
                 </button>
+                <dialog id="my_modal_3" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/fruit5.png"
+                        alt="Shoes"
+                        class="rounded-xl mb-3"
+                      />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-2">
+                      <h2 class="card-title">Dalim</h2>
+                      <p class="text-slate-500">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="rating space-x-2">
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-3"
+                          class="mask mask-star-2 bg-fruit-primary"
+                          checked
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                      </div>
+                    </div>
+                    <div class="modal-action flex justify-center gap-2 mt-0">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-fruit-primary hover:text-[#df484b] bg-text-white border-2 border-solid border-fruit-primary hover:border-[#df484b] font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Bye Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
@@ -575,11 +758,72 @@
                 />
               </div>
               <div class="card-actions">
+                <!-- Open the modal using ID.showModal() method -->
                 <button
                   class="text-fruit-primary font-bold text-lg pointer hover:opacity-80"
+                  onclick="my_modal_4.showModal()"
                 >
                   Details
                 </button>
+                <dialog id="my_modal_4" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="./images/fruit7.png"
+                        alt="Shoes"
+                        class="rounded-xl mb-3"
+                      />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-2">
+                      <h2 class="card-title">Orrange</h2>
+                      <p class="text-slate-500">
+                        Professional employees are there for you to pick the
+                        most amazing and fresh fruits.
+                      </p>
+                      <div class="rating space-x-2">
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-3"
+                          class="mask mask-star-2 bg-fruit-primary"
+                          checked
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-2"
+                          class="mask mask-star-2 bg-fruit-primary"
+                        />
+                      </div>
+                    </div>
+                    <div class="modal-action flex justify-center gap-2 mt-0">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-fruit-primary hover:text-[#df484b] bg-text-white border-2 border-solid border-fruit-primary hover:border-[#df484b] font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="bg-fruit-primary hover:bg-[#df484b] text-white font-semibold text-center rounded-lg text-lg px-4 md:px-6 py-2 md:py-4"
+                      >
+                        Bye Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
